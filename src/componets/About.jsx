@@ -22,9 +22,9 @@ function About() {
             </p>
           </div>
           <div>
-            <button className=" rounded-lg my-8 mx-6 bg-green-500">full time</button>
-             <p>
-              <BsCalendarDate/>
+            <button className=" hover:bg-green-800 rounded-lg py-2 px-6 bg-green-200">full time</button>
+             <p className="flex  mt-4 ">
+               <span className="mr-8"><BsCalendarDate/></span> feb 2022 - present
              </p>
           </div>
 
