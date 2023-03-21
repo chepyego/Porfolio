@@ -1,0 +1,38 @@
+
+.about-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1;
+    
+}
+.about-color{
+    color: #42446E;
+}
+.about-gradient-color{
+   
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+.border-color{
+border: 9px solid;
+
+border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
+
+
+
+}
+.about-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #42446E;
+    font-size: 42px;
+
+
+}
