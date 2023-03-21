@@ -17,9 +17,11 @@ function Header() {
               </li>
             <li> 
               <Link to='/about'>About</Link></li>
-            <li>Tech Stack</li>
-            <li>Projects</li>
-            <li>Contacts</li>
+            <li>
+              <Link to="/tech_stack">Tech Stack</Link></li>
+            <li>
+              <Link to="/project">Projects</Link></li>
+            <li><Link to="/contacts">Contacts</Link></li>
             <li><AiFillGithub/></li>
             <li><AiFillTwitterCircle/></li>
             <li className="mr-20"><AiFillLinkedin/></li>
