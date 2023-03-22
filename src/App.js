@@ -1,3 +1,4 @@
+import Footer from "./componets/Footer";
 import Contacts from "./componets/Contacts"
 import About from "./componets/About";
 import Home from "./componets/Home";
@@ -20,12 +21,12 @@ function App() {
           <Route path='/project' element={<Project/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
 
-
+          
 
         </Routes>
 
        </main>
-
+       <Footer/>
       </Router>
      
       
