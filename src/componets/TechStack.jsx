@@ -20,7 +20,7 @@ function TechStack() {
         <p className="mt-4 text-xl  font-normal font-family-custom text-gray-600">Technologies I have been working with</p>
       </div>
       <div>
-        <ul className=" mt-24 flex flex-1 flex-wrap gap-20 m-6">
+        <ul className=" mt-24 flex flex-1 flex-wrap gap-20 mx-8">
           <li className=" text-8xl text-orange-500 "><AiFillHtml5/></li>
           <li className="text-8xl text-blue-600"><DiCss3/></li>
           <li className="text-8xl text-yellow-400 "><SiJavascript/></li>

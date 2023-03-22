@@ -17,7 +17,7 @@ function Header() {
     <div>
 
        <nav className ="md:py-8 bg-white-700 mt-16 ">
-        <div className="absolute left-9 invisible md:visible ">Logo</div>
+        <div className="absolute left-9 invisible md:visible ">Jem</div>
         <button type="button" className=' absolute top-10 right-6 text-2xl md:invisible 'onClick={toggleNav}>
          <GiHamburgerMenu />
          </button>
