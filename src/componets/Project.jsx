@@ -2,6 +2,7 @@
 import login from '../images/login.png'
 import Wiseleger from '../images/Wiseleger.png'
 import Zuric from '../images/Zuric.png'
+import nail from '../images/nail.png'
 
 import {AiOutlineGithub} from 'react-icons/ai'
 import { AiOutlineLink} from 'react-icons/ai'
@@ -15,6 +16,15 @@ function Project() {
             <p className="text-xl font-family-custom text-gray-600">Things that i have built</p>
         </div>
         <div className="md:ml-20 ml-4 mb-40  flex flex-wrap gap-8">
+            
+        <div className=" rounded-3xl max-h-fit  max-w-fit  w-96 shadow-md hover:bg-gray-100 ">
+                <img src={nail}/>
+                <h2 className=" text-center py-6 text-xl text-black font-family-custom font-medium">nail palour saloon</h2>
+                <p className=" font-light font-family-custom mx-6 text-lg text-gray-600">This is booking system that can be be used in a nail palour saloon to manage their bookings</p>
+                 <p className=" mx-6 mb-4 text-sm font-light text-gray-600 font-family-custom text-center my-3"><span className="text-blue-900">Tech Stack:</span> sqlite3 Tailwindcss,Ruby, Ruby on rails</p>
+                 <p className="pb-6 flex justify-center gap-x-8"><span className="mr-0"><AiOutlineLink/></span><a href="https://nail-palour.onrender.com" target="_blank">live preview</a><AiOutlineGithub/><a href="https://github.com/chepyego/NAIL-PALOUR" target="_blank">View Code</a></p>
+            
+            </div>
             <div className=" rounded-3xl max-h-fit  max-w-fit  w-96 shadow-md hover:bg-gray-100 ">
                 <img src={Wiseleger}/>
                 <h2 className=" text-center py-6 text-xl text-black font-family-custom font-medium">Wise leger web application</h2>
@@ -37,7 +47,7 @@ function Project() {
                 <img src={login}/>
                 <h2 className=" text-center py-6 text-xl text-black font-family-custom font-medium">Login page</h2>
                 <p className=" font-light font-family-custom mx-6 text-lg text-gray-600">This is a login page, it was an asignment given during the women techsters fellowship</p>
-                 <p className=" mx-6 mb-4 text-sm font-light text-gray-600 font-family-custom  my-3"><span className="text-blue-900">Tech Stack:</span> HTML, Tailwindcss, Ruby on rails</p>
+                 <p className=" mx-6 mb-4 text-sm font-light text-gray-600 font-family-custom  my-3"><span className="text-blue-900">Tech Stack:</span> HTML, Tailwindcss</p>
                  <p className="  pb-6 flex justify-center gap-x-8"><span className="mr-0"><AiOutlineLink/></span><a href="https://chepyego.github.io/" target="_blank">live preview</a> <AiOutlineGithub/><a href="https://github.com/chepyego/chepyego.github.io">View Code</a></p>
             
             </div>

@@ -25,7 +25,7 @@ function About() {
             <div>
               <button className=" text-xs md:text-sm hover:bg-green-800 rounded-lg py-2 px-6 bg-green-200">part time</button>
               <p className="flex  mt-4  text-gray-400">
-                <span className=" invisible md:visible mt-2 md:mt-0 md:text-sm text-xs mr-2 "><BsCalendarDate/></span> feb 2022 - present
+                <span className=" invisible md:visible mt-2 md:mt-0 md:text-sm text-xs mr-2 "><BsCalendarDate/></span> feb 2022 - feb 2023
               </p>
             </div>
         </div>
